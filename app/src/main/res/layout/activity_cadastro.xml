@@ -58,5 +58,24 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="170dp" />
 
+    <Button
+        android:id="@+id/botaoCancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="63dp"
+        android:layout_marginStart="56dp"
+        android:text="Cancelar" />
+
+    <Button
+        android:id="@+id/botaoConfirmar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/codigoDeRastreio"
+        android:layout_alignTop="@+id/botaoCancelar"
+        android:text="Confirmar"
+        tools:ignore="UnknownId" />
+
 
 </RelativeLayout>
