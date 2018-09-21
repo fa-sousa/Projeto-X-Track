@@ -66,7 +66,8 @@
         android:layout_alignParentStart="true"
         android:layout_marginBottom="63dp"
         android:layout_marginStart="56dp"
-        android:background="#66000000"
+        android:elevation="05dp"
+        android:padding="10dp"
         android:text="Cancelar" />
 
     <Button
@@ -76,7 +77,8 @@
         android:layout_alignEnd="@+id/codigoDeRastreio"
         android:layout_alignTop="@+id/botaoCancelar"
         android:text="Confirmar"
-        android:background="#66000000"
+        android:elevation="05dp"
+        android:padding="10dp"
         tools:ignore="UnknownId" />
 
 
