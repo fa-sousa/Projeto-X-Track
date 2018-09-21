@@ -1,3 +1,1 @@
 # project
-romario
-strack
