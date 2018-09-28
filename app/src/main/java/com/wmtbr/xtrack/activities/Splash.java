@@ -1,4 +1,4 @@
-package example.aula_01.com.projetoxtrackteste;
+package com.wmtbr.xtrack.activities;
 
 import android.content.Intent;
 import android.os.Handler;
@@ -6,9 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.WindowManager;
 
-public class splash extends AppCompatActivity {
+import com.wmtbr.xtrack.R;
+import com.wmtbr.xtrack.activities.Login;
 
-
+public class Splash extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,10 +24,10 @@ public class splash extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(getBaseContext(), MainActivity.class) );
+                startActivity(new Intent(getBaseContext(), Login.class) );
                 finish();
             }
-        }, 6000);
+        }, 2000);
 
 
 

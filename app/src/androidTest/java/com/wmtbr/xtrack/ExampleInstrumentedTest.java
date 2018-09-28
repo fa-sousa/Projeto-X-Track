@@ -1,4 +1,4 @@
-package example.aula_01.com.projetoxtrackteste;
+package com.wmtbr.xtrack;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("example.aula_01.com.projetoxtrackteste", appContext.getPackageName());
+        assertEquals("com.wmtbr.xtrack", appContext.getPackageName());
     }
 }

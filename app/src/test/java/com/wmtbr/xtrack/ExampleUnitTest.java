@@ -1,4 +1,4 @@
-package example.aula_01.com.projetoxtrackteste;
+package com.wmtbr.xtrack;
 
 import org.junit.Test;
 
